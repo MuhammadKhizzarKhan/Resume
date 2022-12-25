@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
+    <script>
+    $(function() {
+    $(".toggle").on("click", function() {
+        if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+        } else {
+            $(".item").addClass("active");
+        }
+    });
+});
+    </script>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="#"><img src="Img/Resume Builder.png"></a></li>
+            
+                <li class="item"><a href="#">Features</a><i class="fa fa-caret-down"></i></li>
+                <li class="item"><a href="#">Resources</a><i class="fa fa-caret-down"></i></li>
+                <li class="item"><a href="#">Pricing</a></li>
+            
+            <li class="item button"><a href="#">Login/Register</a></li>
+            <li class="item button secondary"><a href="#">Switch to Recruiter</a></li>
+            <li class="item lang"><a href="#"><img src="Img/flag.JPG" width="24px">ENG</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+
+    <section class="MainPage">
+        <div class="text-box">
+            <h2>Resume Builder(and CV Formate)<br>
+            Create Dream and Aspirations for<br>
+            A Better Job</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+                Inventore et maxime non nesciunt, eius excepturi, rerum<br>
+                ex magnam esse, fugit minima at eos minus hic amet <br>
+                 molestiae incidunt reprehenderit eum.</p>
+            <a href="#" class="btn1">Build Resume for free</a>
+        </div>
+
+    </section>
+
+    <section class="Content-Page">
+
+        <div class="parent">
+            <div class="child" style="background-color:#dfeeff">
+                <div class="row">
+                    <div class="course-col">
+                        <img src="Img/resume.png" alt="Lamp" width="100" >
+                        <h2 >Resume</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed labore quae cupiditate atque adipisci.</p>
+
+                    </div>
+                    <div class="course-col">
+                        <img src="Img/coverletter.png" alt="Lamp" width="150">
+                        <h2 >Cover Letter</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam commodi doloremque, iusto adipisci.</p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="course-col">
+                        <img src="Img/video.png" alt="Lamp" width="150" >
+                        <h2 >Video</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque amet corporis nostrum, perspiciatis</p>
+
+                    </div>
+                    <div class="course-col">
+                        <img src="Img/website.png" alt="Lamp" width="150" >
+                        <h2 >Website</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed facilis quia deserunt necessitatibus</p>
+
+                    </div>
+                </div>
+              
+            </div>
+
+            <div class="child " style="padding: 60px 60px 60px 60px;">
+                
+              <h2 class="clild-left" style="padding:100px 0px 0px 0px;">What we are offering</h2>
+              <p style="padding: 0px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ad corporis nam, omnis molestiae quaerat distinctio deserunt error numquam. Praesentium earum pariatur officia unde autem non? Repudiandae facilis atque maxime!</p>
+            </div>
+          </div>
+
+    </section>
+    
+</body>
+</html>
